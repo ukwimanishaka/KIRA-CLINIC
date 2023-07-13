@@ -1,0 +1,163 @@
+*{
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #ffffff;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: inherit;
+}
+/*======================================================
+                          Navbar
+  ======================================================*/
+  #navbar{
+    background: #85c31f;
+    position: fixed;
+    top:0;
+    height: 60px;
+    line-height: 60px;
+    width: 300vh;
+    z-index: 10;
+  }
+  nav-wrapper{
+    margin: auto;
+    text-align: center;
+    width: 70%;
+  }
+  .logo{
+    float: left;
+    margin-left: 28px;
+    font-size: 1.5em;
+    height: 70px;
+    letter-spacing: 1px;
+  }
+  #navbar li{
+    display: inline-block;
+  }
+  #navbar li a{
+    left: 420px;
+    color: rgb(255, 255, 255);
+    display: block;
+    height: 50px;
+    letter-spacing: .5px;
+    margin: 0 15px;
+    padding:  0 4px;
+    position: relative;
+    text-decoration: none;
+    transition: all 0.5s ease;
+  }
+  #navbar li a:hover{
+    font-size: 20px;
+    color: rgb(231, 252, 220);
+    transition: all 1sec ease;
+  }
+  /*======================================================
+                    fit-page image
+  ======================================================*/
+  .background_image{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.893)),url(backgroun.jpg);
+    background-size: cover;
+}
+  /*======================================================
+                    TEXT IN IMAGE
+  ======================================================*/
+.content{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+}
+h1{
+    font-size: 70px;
+}
+button{
+  width: 120px;
+  height: 40px;
+  display: inline-block;
+  border: 2px;
+  position: relative;
+  margin-top: 6%;
+}
+.bt1{
+  position: relative;
+  left: -20px;
+  background-color: green;
+}
+button{
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+button:hover{
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+  size: 20px;
+  transition: 2sec;
+  color: green;
+}
+  /*======================================================
+                    mid-section
+  ======================================================*/
+.table{
+  margin: 0 100px 0 100px;
+  position: absolute;
+  text-align: center;
+  top: 108%;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+td{
+  height: 10%;
+  width: 30%;
+}
+.t1{
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+  /*======================================================
+                    footer
+  ======================================================*/
+footer{
+  list-style: none;
+  margin-top: 145%;
+  position: absolute;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  display: grid;
+  grid-template-columns: repeat(4,1fe);
+  padding: 3rem 3.5rem;
+  color: #ffffff;
+}
+.follow-us{
+  margin-left: 70%;
+  margin-top: -152px;
+}
+.services-links{
+  margin-left: 45%;
+  margin-top: -120px;
+}
+.copyright{
+  text-align: center;
+  background-color: rgb(47, 44, 44);
+  position: absolute;
+  height: 64px;
+  width: 100%;
+  margin-top: 20%;
+}

@@ -1,0 +1,170 @@
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-family: 'Poppins', sans-serif;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+  }
+  body{
+      background-color: #ffffff;
+  }
+  a{
+      color: white;
+      text-decoration: none;
+      font-family: inherit;
+      font-size: inherit;
+  }
+  /*======================================================
+                            Navbar
+    ======================================================*/
+    #navbar{
+      background: #85c31f;
+      position: fixed;
+      top:0;
+      height: 60px;
+      line-height: 60px;
+      width: 300vh;
+      z-index: 10;
+    }
+    nav-wrapper{
+      margin: auto;
+      text-align: center;
+      width: 70%;
+    }
+    .logo{
+      float: left;
+      margin-left: 28px;
+      font-size: 1.5em;
+      height: 70px;
+      letter-spacing: 1px;
+    }
+    #navbar li{
+      display: inline-block;
+    }
+    #navbar li a{
+      left: 420px;
+      color: rgb(255, 255, 255);
+      display: block;
+      height: 50px;
+      letter-spacing: .5px;
+      margin: 0 15px;
+      padding:  0 4px;
+      position: relative;
+      text-decoration: none;
+      transition: all 0.5s ease;
+    }
+    #navbar li a:hover{
+      font-size: 20px;
+      color: rgb(231, 252, 220);
+      transition: all 1sec ease;
+    }
+
+.container{
+    width: 100%;
+    background-color:  rgb(54, 53, 53);
+    height: 320px;
+    text-align: center;
+    font-size: 29px;
+    position: absolute;
+    color: #ffffff;
+}
+
+  .table{
+    margin: 0 100px 0 100px;
+    position: absolute;
+    text-align: center;
+    top: 108%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+  td{
+    height: 10%;
+    width: 30%;
+  }
+  .t1{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+  }
+    /*======================================================
+                      footer
+    ======================================================*/
+  footer{
+    list-style: none;
+    margin-top: 145%;
+    position: absolute;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: repeat(4,1fe);
+    padding: 3rem 3.5rem;
+    color: #ffffff;
+  }
+  .follow-us{
+    margin-left: 70%;
+    margin-top: -152px;
+  }
+  .services-links{
+    margin-left: 45%;
+    margin-top: -120px;
+  }
+  .copyright{
+    text-align: center;
+    background-color: rgb(47, 44, 44);
+    position: absolute;
+    height: 64px;
+    width: 100%;
+    margin-top: 20%;
+  }
+  .phone{
+    border: 1px solid rgba(195, 192, 192, 0.449);
+    border-radius: 10px;
+    margin-left: 40px;
+    width: 30%;
+    height: 90px;
+    background-color:  rgb(47, 44, 44);
+  }
+.location{
+    border: 1px solid rgba(195, 192, 192, 0.449);
+    border-radius: 10px;
+    margin-top: -90px;
+    margin-left: 420px;
+    width: 30%;
+    height: 90px;
+    background-color:  rgb(47, 44, 44);  
+}
+.email{
+    border: 1px solid rgba(195, 192, 192, 0.449);
+    border-radius: 10px;
+    margin-top: -90px;
+    margin-left: 800px;
+    width: 30%;
+    height: 90px;
+    background-color:  rgb(47, 44, 44);  
+}
+.love{
+    position: absolute;
+    margin-top: 350px;
+    font-size: 23px;
+    text-align: center;
+    margin-left: 27%;
+}
+.cont{
+    position: absolute;
+    margin-top: 40px;
+    width: 150%;
+    height: 400%;
+    box-shadow: 2PX 0px 2PX 5PX gray;
+    border-radius: 7px;
+    margin-left: -90px;
+}
+input{
+    border: 1px solid #85c31f;
+    box-shadow: 1PX 0px 1PX 0PX rgb(222, 220, 220);
+}
+.content{
+    padding: 30px;
+}
